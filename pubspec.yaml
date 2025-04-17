@@ -1,0 +1,28 @@
+name: jewelry_catalog_app
+description: A new Flutter project for a jewelry catalog with dynamic login and navigation.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  carousel_slider: ^5.0.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.3.0 # Add this for code generation
+  hive_generator: ^1.1.0 # Add this for generating type adapters
+
+flutter:
+  uses-material-design: true
